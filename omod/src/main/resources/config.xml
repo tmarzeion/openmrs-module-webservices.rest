@@ -103,4 +103,11 @@
 		<description>Gives access to RESTWS in administration</description>
 	</privilege>
 	
+	<conditionalResources>
+		<conditionalResource>
+			<path>/lib/webservices.rest-omod-1.12.*</path>
+			<openmrsVersion>1.12</openmrsVersion>
+		</conditionalResource>
+	</conditionalResources>
+	
 </module>
